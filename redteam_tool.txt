@@ -1,0 +1,18 @@
+Patrick Marchione
+RedTeam Tool
+
+$ip = $args[0]
+
+Determine OS of System
+nmap -A [ip addr]
+
+what version of OS
+cat recon.txt | select-string "Running"
+
+what's vulernable
+list ports and services
+cat recon.txt | select-string "tcp"
+
+return exploits
+go through ports / services and echo these links for potential list of vulnerabilites
+https://nvd.nist.gov/vuln/search/results?form_type=Basic&results_type=overview&query=msrpc&search_type=all&isCpeNameSearch=false
