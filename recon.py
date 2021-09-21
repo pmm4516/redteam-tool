@@ -1,5 +1,6 @@
 """
 Author: Patrick Marchione
+Email: pmm4516@rit.edu
 Class: CSEC 473 Cyber Defense Techniques
 Assignment: Homework 3 - Red Team Tools
 Description: The purpose of this tool is to determine
